@@ -47,7 +47,7 @@ resource "aws_security_group" "allow_jenkins" {
 
 resource "aws_instance" "jenkins-intro" {
   ami             = "ami-080e1f13689e07408" // Replace with the actual Ubuntu AMI ID
-  instance_type   = "t2.micro"
+  instance_type   = "t3.medium"
   key_name        = "example-instance-key"
   security_groups = [aws_security_group.allow_jenkins.name]
   root_block_device {

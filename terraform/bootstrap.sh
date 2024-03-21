@@ -38,6 +38,6 @@ sudo apt-get install -y jenkins
 
 # Install Node.js
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-source .bashrc
+source ~/.bashrc
 # download and install Node.js
 nvm install 20
