@@ -60,3 +60,9 @@ typings/
 
 .idea
 build
+
+# Terraform files
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform/
